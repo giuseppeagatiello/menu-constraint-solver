@@ -58,7 +58,7 @@ To compare an output with the expected result:
 diff -u tests/compatible_constraints.expected.txt build/compatible_constraints.actual.txt
 ```
 
-If `diff` prints nothing, the files match. These are small checks added to this repository, not the official course tests. Three currently pass; `remove_three_employees.txt` fails because the removal loop stops too early. The input, output and cause are explained in [Testing notes](docs/verification.md).
+If `diff` prints nothing, the files match. These are small checks added to this repository, not the official course tests. Three currently pass; `remove_three_employees.txt` fails because the removal loop stops too early.
 
 ## How it works
 
